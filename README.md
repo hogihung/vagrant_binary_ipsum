@@ -17,6 +17,8 @@ line:
   config.vm.synced_folder ".", "/vagrant", type: "nfs"
 ```
 
+*Note:  I was able to confirm that the above line for synced folders via NFS does work with Windows.*
+
 # SETUP
 
 In your terminal application, navigate to a directory where you want to clone
