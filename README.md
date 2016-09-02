@@ -3,7 +3,7 @@
 This repo was put together to accompany the Binary Ipsum talk/workshop being
 hosted by RubyJax (October 2016.)
 
-I put this Vagrant Virtual machine together for those that might be new to Ruby
+I put this Vagrant Virtual Machine together for those that might be new to Ruby
 or are not sure about how to load a different version of Ruby.
 
 This virtual machine runs Ruby 2.3.0 and Bundler 1.12.5.  It has been setup to
@@ -31,7 +31,7 @@ cd /Users/your_user_name/Documents/LEARNING_NOTES/
 Next, clone the repo:
 
 ```
-https://github.com/hogihung/vagrant_binary_ipsum.git
+git clone https://github.com/hogihung/vagrant_binary_ipsum.git
 ```
 
 Lastly, bring up the Vagrant Virtual Machine using:
@@ -41,8 +41,8 @@ vagrant up
 ```
 
 When you bring up your VM you will need to supply the password for your login
-account that you use on OS X.  *(This should only apply if you are using OS X
-and Virtual Box for the Shared Folders feature.)*
+account that you use on OS X.  *(This should only apply if didn't comment out
+the configuration line for Shared Folders.)*
 
 ```
 ==> default: Preparing to edit /etc/exports. Administrator privileges will be required...
