@@ -41,8 +41,8 @@ vagrant up
 ```
 
 When you bring up your VM you will need to supply the password for your login
-account that you use on OS X.  *(This should only apply if didn't comment out
-the configuration line for Shared Folders.)*
+account that you use on OS X.  *(This should only apply if you didn't comment
+out the configuration line for Shared Folders.)*
 
 ```
 ==> default: Preparing to edit /etc/exports. Administrator privileges will be required...
