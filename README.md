@@ -19,6 +19,14 @@ line:
 
 *Note:  I was able to confirm that the above line for synced folders via NFS does work with Windows.*
 
+
+    If you do not already have Vagrant installed along with VirtualBox (or VMWare,)
+    you can find those tools here:
+
+    https://www.virtualbox.org/wiki/Downloads
+    https://www.vagrantup.com/downloads.html
+
+
 # SETUP
 
 In your terminal application, navigate to a directory where you want to clone
